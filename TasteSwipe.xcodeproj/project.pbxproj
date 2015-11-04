@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0382A331BE90FCD003E6987 /* MealSwipeBasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A321BE90FCD003E6987 /* MealSwipeBasicVC.swift */; };
+		B0382A351BE90FF5003E6987 /* ToTryListBasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A341BE90FF5003E6987 /* ToTryListBasicVC.swift */; };
+		B0382A371BE9100B003E6987 /* MealDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A361BE9100B003E6987 /* MealDetailVC.swift */; };
+		B0382A391BE9102C003E6987 /* RecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A381BE9102C003E6987 /* RecipeVC.swift */; };
+		B0382A3B1BE922E6003E6987 /* ToTryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A3A1BE922E6003E6987 /* ToTryListCell.swift */; };
+		B0382A3E1BE946FE003E6987 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A3D1BE946FE003E6987 /* Rating.swift */; };
+		B0382A401BE94713003E6987 /* Consumable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A3F1BE94713003E6987 /* Consumable.swift */; };
+		B0382A421BE9471D003E6987 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A411BE9471D003E6987 /* Meal.swift */; };
+		B0382A441BE94723003E6987 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A431BE94723003E6987 /* Recipe.swift */; };
+		B0382A461BE9472F003E6987 /* RecipeIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A451BE9472F003E6987 /* RecipeIngredient.swift */; };
+		B0382A481BE94735003E6987 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A471BE94735003E6987 /* Ingredient.swift */; };
+		B0382A4A1BE94744003E6987 /* GroceryListIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A491BE94744003E6987 /* GroceryListIngredient.swift */; };
+		B0382A4C1BE9474A003E6987 /* GroceryListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A4B1BE9474A003E6987 /* GroceryListEntry.swift */; };
+		B0382A4E1BE94750003E6987 /* GroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A4D1BE94750003E6987 /* GroceryList.swift */; };
+		B0382A501BE9475F003E6987 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A4F1BE9475F003E6987 /* User.swift */; };
+		B0382A521BE94765003E6987 /* NormalUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A511BE94765003E6987 /* NormalUser.swift */; };
+		B0382A541BE9476A003E6987 /* Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A531BE9476A003E6987 /* Contributor.swift */; };
+		B0382A561BE94775003E6987 /* IndependentContributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A551BE94775003E6987 /* IndependentContributor.swift */; };
+		B0382A581BE949A0003E6987 /* ToTryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A571BE949A0003E6987 /* ToTryList.swift */; };
+		B0382A611BE952BB003E6987 /* dekete.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0382A601BE952BB003E6987 /* dekete.swift */; };
+		B0D02A4B1BE822B200BD31E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D02A4A1BE822B200BD31E1 /* AppDelegate.swift */; };
+		B0D02A4D1BE822B200BD31E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D02A4C1BE822B200BD31E1 /* ViewController.swift */; };
+		B0D02A501BE822B200BD31E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D02A4E1BE822B200BD31E1 /* Main.storyboard */; };
+		B0D02A531BE822B200BD31E1 /* TasteSwipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0D02A511BE822B200BD31E1 /* TasteSwipe.xcdatamodeld */; };
+		B0D02A551BE822B200BD31E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D02A541BE822B200BD31E1 /* Assets.xcassets */; };
+		B0D02A581BE822B200BD31E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D02A561BE822B200BD31E1 /* LaunchScreen.storyboard */; };
+		B0D02A631BE822B200BD31E1 /* TasteSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D02A621BE822B200BD31E1 /* TasteSwipeTests.swift */; };
+		B0D02A6E1BE822B200BD31E1 /* TasteSwipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D02A6D1BE822B200BD31E1 /* TasteSwipeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0D02A5F1BE822B200BD31E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D02A3F1BE822B100BD31E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D02A461BE822B100BD31E1;
+			remoteInfo = TasteSwipe;
+		};
+		B0D02A6A1BE822B200BD31E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0D02A3F1BE822B100BD31E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D02A461BE822B100BD31E1;
+			remoteInfo = TasteSwipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0382A321BE90FCD003E6987 /* MealSwipeBasicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealSwipeBasicVC.swift; path = TasteSwipe/MealSwipeBasicVC.swift; sourceTree = "<group>"; };
+		B0382A341BE90FF5003E6987 /* ToTryListBasicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToTryListBasicVC.swift; path = TasteSwipe/ToTryListBasicVC.swift; sourceTree = "<group>"; };
+		B0382A361BE9100B003E6987 /* MealDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MealDetailVC.swift; path = TasteSwipe/MealDetailVC.swift; sourceTree = "<group>"; };
+		B0382A381BE9102C003E6987 /* RecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeVC.swift; path = TasteSwipe/RecipeVC.swift; sourceTree = "<group>"; };
+		B0382A3A1BE922E6003E6987 /* ToTryListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ToTryListCell.swift; path = TasteSwipe/ToTryListCell.swift; sourceTree = "<group>"; };
+		B0382A3D1BE946FE003E6987 /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rating.swift; path = ../Rating.swift; sourceTree = "<group>"; };
+		B0382A3F1BE94713003E6987 /* Consumable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consumable.swift; sourceTree = "<group>"; };
+		B0382A411BE9471D003E6987 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		B0382A431BE94723003E6987 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		B0382A451BE9472F003E6987 /* RecipeIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeIngredient.swift; sourceTree = "<group>"; };
+		B0382A471BE94735003E6987 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		B0382A491BE94744003E6987 /* GroceryListIngredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListIngredient.swift; sourceTree = "<group>"; };
+		B0382A4B1BE9474A003E6987 /* GroceryListEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListEntry.swift; sourceTree = "<group>"; };
+		B0382A4D1BE94750003E6987 /* GroceryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryList.swift; sourceTree = "<group>"; };
+		B0382A4F1BE9475F003E6987 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B0382A511BE94765003E6987 /* NormalUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalUser.swift; sourceTree = "<group>"; };
+		B0382A531BE9476A003E6987 /* Contributor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contributor.swift; sourceTree = "<group>"; };
+		B0382A551BE94775003E6987 /* IndependentContributor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndependentContributor.swift; sourceTree = "<group>"; };
+		B0382A571BE949A0003E6987 /* ToTryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToTryList.swift; sourceTree = "<group>"; };
+		B0382A601BE952BB003E6987 /* dekete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dekete.swift; sourceTree = "<group>"; };
+		B0D02A471BE822B200BD31E1 /* TasteSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D02A4A1BE822B200BD31E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0D02A4C1BE822B200BD31E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = TasteSwipe/ViewController.swift; sourceTree = "<group>"; };
+		B0D02A4F1BE822B200BD31E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0D02A521BE822B200BD31E1 /* TasteSwipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TasteSwipe.xcdatamodel; sourceTree = "<group>"; };
+		B0D02A541BE822B200BD31E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0D02A571BE822B200BD31E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0D02A591BE822B200BD31E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D02A5E1BE822B200BD31E1 /* TasteSwipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteSwipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D02A621BE822B200BD31E1 /* TasteSwipeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteSwipeTests.swift; sourceTree = "<group>"; };
+		B0D02A641BE822B200BD31E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D02A691BE822B200BD31E1 /* TasteSwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteSwipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D02A6D1BE822B200BD31E1 /* TasteSwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteSwipeUITests.swift; sourceTree = "<group>"; };
+		B0D02A6F1BE822B200BD31E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0D02A441BE822B100BD31E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D02A5B1BE822B200BD31E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D02A661BE822B200BD31E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0382A3C1BE946A9003E6987 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0382A3D1BE946FE003E6987 /* Rating.swift */,
+				B0382A571BE949A0003E6987 /* ToTryList.swift */,
+				B0382A3F1BE94713003E6987 /* Consumable.swift */,
+				B0382A411BE9471D003E6987 /* Meal.swift */,
+				B0382A431BE94723003E6987 /* Recipe.swift */,
+				B0382A451BE9472F003E6987 /* RecipeIngredient.swift */,
+				B0382A471BE94735003E6987 /* Ingredient.swift */,
+				B0382A491BE94744003E6987 /* GroceryListIngredient.swift */,
+				B0382A4B1BE9474A003E6987 /* GroceryListEntry.swift */,
+				B0382A4D1BE94750003E6987 /* GroceryList.swift */,
+				B0382A4F1BE9475F003E6987 /* User.swift */,
+				B0382A531BE9476A003E6987 /* Contributor.swift */,
+				B0382A551BE94775003E6987 /* IndependentContributor.swift */,
+				B0382A511BE94765003E6987 /* NormalUser.swift */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		B0382A591BE949B1003E6987 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0D02A4C1BE822B200BD31E1 /* ViewController.swift */,
+				B0382A5A1BE94A8E003E6987 /* MealSwipe */,
+				B0382A5B1BE94AA1003E6987 /* ToTryList */,
+				B0382A5C1BE94AAA003E6987 /* MealDetail */,
+				B0382A5D1BE94AB1003E6987 /* Recipe */,
+			);
+			name = ViewControllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B0382A5A1BE94A8E003E6987 /* MealSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				B0382A321BE90FCD003E6987 /* MealSwipeBasicVC.swift */,
+			);
+			name = MealSwipe;
+			sourceTree = "<group>";
+		};
+		B0382A5B1BE94AA1003E6987 /* ToTryList */ = {
+			isa = PBXGroup;
+			children = (
+				B0382A341BE90FF5003E6987 /* ToTryListBasicVC.swift */,
+				B0382A601BE952BB003E6987 /* dekete.swift */,
+				B0382A3A1BE922E6003E6987 /* ToTryListCell.swift */,
+			);
+			name = ToTryList;
+			sourceTree = "<group>";
+		};
+		B0382A5C1BE94AAA003E6987 /* MealDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B0382A361BE9100B003E6987 /* MealDetailVC.swift */,
+			);
+			name = MealDetail;
+			sourceTree = "<group>";
+		};
+		B0382A5D1BE94AB1003E6987 /* Recipe */ = {
+			isa = PBXGroup;
+			children = (
+				B0382A381BE9102C003E6987 /* RecipeVC.swift */,
+			);
+			name = Recipe;
+			sourceTree = "<group>";
+		};
+		B0D02A3E1BE822B100BD31E1 = {
+			isa = PBXGroup;
+			children = (
+				B0D02A491BE822B200BD31E1 /* TasteSwipe */,
+				B0D02A611BE822B200BD31E1 /* TasteSwipeTests */,
+				B0D02A6C1BE822B200BD31E1 /* TasteSwipeUITests */,
+				B0D02A481BE822B200BD31E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0D02A481BE822B200BD31E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D02A471BE822B200BD31E1 /* TasteSwipe.app */,
+				B0D02A5E1BE822B200BD31E1 /* TasteSwipeTests.xctest */,
+				B0D02A691BE822B200BD31E1 /* TasteSwipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D02A491BE822B200BD31E1 /* TasteSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				B0382A591BE949B1003E6987 /* ViewControllers */,
+				B0382A3C1BE946A9003E6987 /* Custom Classes */,
+				B0D02A4A1BE822B200BD31E1 /* AppDelegate.swift */,
+				B0D02A4E1BE822B200BD31E1 /* Main.storyboard */,
+				B0D02A541BE822B200BD31E1 /* Assets.xcassets */,
+				B0D02A561BE822B200BD31E1 /* LaunchScreen.storyboard */,
+				B0D02A591BE822B200BD31E1 /* Info.plist */,
+				B0D02A511BE822B200BD31E1 /* TasteSwipe.xcdatamodeld */,
+			);
+			path = TasteSwipe;
+			sourceTree = "<group>";
+		};
+		B0D02A611BE822B200BD31E1 /* TasteSwipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D02A621BE822B200BD31E1 /* TasteSwipeTests.swift */,
+				B0D02A641BE822B200BD31E1 /* Info.plist */,
+			);
+			path = TasteSwipeTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		B0D02A6C1BE822B200BD31E1 /* TasteSwipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0D02A6D1BE822B200BD31E1 /* TasteSwipeUITests.swift */,
+				B0D02A6F1BE822B200BD31E1 /* Info.plist */,
+			);
+			path = TasteSwipeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0D02A461BE822B100BD31E1 /* TasteSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D02A721BE822B200BD31E1 /* Build configuration list for PBXNativeTarget "TasteSwipe" */;
+			buildPhases = (
+				B0D02A431BE822B100BD31E1 /* Sources */,
+				B0D02A441BE822B100BD31E1 /* Frameworks */,
+				B0D02A451BE822B100BD31E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasteSwipe;
+			productName = TasteSwipe;
+			productReference = B0D02A471BE822B200BD31E1 /* TasteSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0D02A5D1BE822B200BD31E1 /* TasteSwipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D02A751BE822B200BD31E1 /* Build configuration list for PBXNativeTarget "TasteSwipeTests" */;
+			buildPhases = (
+				B0D02A5A1BE822B200BD31E1 /* Sources */,
+				B0D02A5B1BE822B200BD31E1 /* Frameworks */,
+				B0D02A5C1BE822B200BD31E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D02A601BE822B200BD31E1 /* PBXTargetDependency */,
+			);
+			name = TasteSwipeTests;
+			productName = TasteSwipeTests;
+			productReference = B0D02A5E1BE822B200BD31E1 /* TasteSwipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0D02A681BE822B200BD31E1 /* TasteSwipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D02A781BE822B200BD31E1 /* Build configuration list for PBXNativeTarget "TasteSwipeUITests" */;
+			buildPhases = (
+				B0D02A651BE822B200BD31E1 /* Sources */,
+				B0D02A661BE822B200BD31E1 /* Frameworks */,
+				B0D02A671BE822B200BD31E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0D02A6B1BE822B200BD31E1 /* PBXTargetDependency */,
+			);
+			name = TasteSwipeUITests;
+			productName = TasteSwipeUITests;
+			productReference = B0D02A691BE822B200BD31E1 /* TasteSwipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0D02A3F1BE822B100BD31E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Burke-Barrido";
+				TargetAttributes = {
+					B0D02A461BE822B100BD31E1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = FQ39X97X3K;
+					};
+					B0D02A5D1BE822B200BD31E1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = FQ39X97X3K;
+						TestTargetID = B0D02A461BE822B100BD31E1;
+					};
+					B0D02A681BE822B200BD31E1 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = FQ39X97X3K;
+						TestTargetID = B0D02A461BE822B100BD31E1;
+					};
+				};
+			};
+			buildConfigurationList = B0D02A421BE822B100BD31E1 /* Build configuration list for PBXProject "TasteSwipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0D02A3E1BE822B100BD31E1;
+			productRefGroup = B0D02A481BE822B200BD31E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D02A461BE822B100BD31E1 /* TasteSwipe */,
+				B0D02A5D1BE822B200BD31E1 /* TasteSwipeTests */,
+				B0D02A681BE822B200BD31E1 /* TasteSwipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D02A451BE822B100BD31E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D02A581BE822B200BD31E1 /* LaunchScreen.storyboard in Resources */,
+				B0D02A551BE822B200BD31E1 /* Assets.xcassets in Resources */,
+				B0D02A501BE822B200BD31E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D02A5C1BE822B200BD31E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D02A671BE822B200BD31E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0D02A431BE822B100BD31E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0382A581BE949A0003E6987 /* ToTryList.swift in Sources */,
+				B0D02A4D1BE822B200BD31E1 /* ViewController.swift in Sources */,
+				B0D02A531BE822B200BD31E1 /* TasteSwipe.xcdatamodeld in Sources */,
+				B0382A561BE94775003E6987 /* IndependentContributor.swift in Sources */,
+				B0382A4A1BE94744003E6987 /* GroceryListIngredient.swift in Sources */,
+				B0382A481BE94735003E6987 /* Ingredient.swift in Sources */,
+				B0382A371BE9100B003E6987 /* MealDetailVC.swift in Sources */,
+				B0382A441BE94723003E6987 /* Recipe.swift in Sources */,
+				B0382A611BE952BB003E6987 /* dekete.swift in Sources */,
+				B0D02A4B1BE822B200BD31E1 /* AppDelegate.swift in Sources */,
+				B0382A421BE9471D003E6987 /* Meal.swift in Sources */,
+				B0382A4E1BE94750003E6987 /* GroceryList.swift in Sources */,
+				B0382A401BE94713003E6987 /* Consumable.swift in Sources */,
+				B0382A3B1BE922E6003E6987 /* ToTryListCell.swift in Sources */,
+				B0382A541BE9476A003E6987 /* Contributor.swift in Sources */,
+				B0382A4C1BE9474A003E6987 /* GroceryListEntry.swift in Sources */,
+				B0382A461BE9472F003E6987 /* RecipeIngredient.swift in Sources */,
+				B0382A351BE90FF5003E6987 /* ToTryListBasicVC.swift in Sources */,
+				B0382A501BE9475F003E6987 /* User.swift in Sources */,
+				B0382A3E1BE946FE003E6987 /* Rating.swift in Sources */,
+				B0382A331BE90FCD003E6987 /* MealSwipeBasicVC.swift in Sources */,
+				B0382A521BE94765003E6987 /* NormalUser.swift in Sources */,
+				B0382A391BE9102C003E6987 /* RecipeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D02A5A1BE822B200BD31E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D02A631BE822B200BD31E1 /* TasteSwipeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D02A651BE822B200BD31E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D02A6E1BE822B200BD31E1 /* TasteSwipeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0D02A601BE822B200BD31E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D02A461BE822B100BD31E1 /* TasteSwipe */;
+			targetProxy = B0D02A5F1BE822B200BD31E1 /* PBXContainerItemProxy */;
+		};
+		B0D02A6B1BE822B200BD31E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D02A461BE822B100BD31E1 /* TasteSwipe */;
+			targetProxy = B0D02A6A1BE822B200BD31E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0D02A4E1BE822B200BD31E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D02A4F1BE822B200BD31E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0D02A561BE822B200BD31E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D02A571BE822B200BD31E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0D02A701BE822B200BD31E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0D02A711BE822B200BD31E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0D02A731BE822B200BD31E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TasteSwipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BurkeMedia.TasteSwipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0D02A741BE822B200BD31E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TasteSwipe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BurkeMedia.TasteSwipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0D02A761BE822B200BD31E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TasteSwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BurkeMedia.TasteSwipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteSwipe.app/TasteSwipe";
+			};
+			name = Debug;
+		};
+		B0D02A771BE822B200BD31E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TasteSwipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BurkeMedia.TasteSwipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteSwipe.app/TasteSwipe";
+			};
+			name = Release;
+		};
+		B0D02A791BE822B200BD31E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TasteSwipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BurkeMedia.TasteSwipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TasteSwipe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B0D02A7A1BE822B200BD31E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TasteSwipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BurkeMedia.TasteSwipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TasteSwipe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0D02A421BE822B100BD31E1 /* Build configuration list for PBXProject "TasteSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D02A701BE822B200BD31E1 /* Debug */,
+				B0D02A711BE822B200BD31E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D02A721BE822B200BD31E1 /* Build configuration list for PBXNativeTarget "TasteSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D02A731BE822B200BD31E1 /* Debug */,
+				B0D02A741BE822B200BD31E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D02A751BE822B200BD31E1 /* Build configuration list for PBXNativeTarget "TasteSwipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D02A761BE822B200BD31E1 /* Debug */,
+				B0D02A771BE822B200BD31E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D02A781BE822B200BD31E1 /* Build configuration list for PBXNativeTarget "TasteSwipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D02A791BE822B200BD31E1 /* Debug */,
+				B0D02A7A1BE822B200BD31E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0D02A511BE822B200BD31E1 /* TasteSwipe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0D02A521BE822B200BD31E1 /* TasteSwipe.xcdatamodel */,
+			);
+			currentVersion = B0D02A521BE822B200BD31E1 /* TasteSwipe.xcdatamodel */;
+			path = TasteSwipe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0D02A3F1BE822B100BD31E1 /* Project object */;
+}
